@@ -34,8 +34,11 @@ $rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.061 image:=
 You shoude change the size/square/image/camera with your own parameters.Write the camera calibration result in the cam_laser_calib/src/solvepnp/param/calib.yml file.
 ##2 Get the points pair of QR code center
 ### 2.1 build and run
-```
-$cd cam_laser_calib/
+Create a ros workspaces named cam_laser_calib.
+``` 
+$cd cam_laser_calib/src
+$git clone git@github.com:NicoChou/camera-laser-calibration.git
+$cd ..
 $catkin_make
 $roslaunch  cam_laser_calib calibration.launch
 ```
