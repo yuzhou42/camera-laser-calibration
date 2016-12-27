@@ -24,8 +24,8 @@ Run the bag file:
 ```
 $rosbag play 2016-12-22-14-03-09.bag -l
 ```
-And follow the "How to use"step, you can test the package.
-#How to use 
+And follow the "Usage"step, you can test the package.
+#Usage 
 ##1 camera calibtation 
 If you use the test data ， you can ignore this step.
 ```
