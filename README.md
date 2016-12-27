@@ -20,8 +20,9 @@ We use [ros](http://wiki.ros.org/indigo/Installation/Ubuntu) to get the image an
 ##2 Marker
 
 Here we use the QR code as the marker.The size of the marker is 80*80 cm.
-Marker
+
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png "Marker")
+Marker
 
 
 #Test data
@@ -101,14 +102,18 @@ We use rqt_reconfigure to dynamic config the rectangle cut area of  point cloud.
 $rosrun rqt_reconfigure rqt_reconfigure 
 
 ```
-rqt_reconfigure
+
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/3.png "rqt_reconfigure")
-Before cut the point cloud
+rqt_reconfigure
+
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/4.png "Before cut the point cloud")
-After cut the point cloud
+Before cut the point cloud
+
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png "After cut the point cloud")
-Estimated plane
+After cut the point cloud
+
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png " Estimated plane")
+Estimated plane
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 
