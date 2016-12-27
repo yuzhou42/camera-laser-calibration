@@ -14,7 +14,8 @@ Here we use the QR code as the marker.The size of the marker is 80*80 cm.
 
 Marker
 
-![Marker](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png "Marker")
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png" width="50%" height="50%">
+
 #Test data
 This rosbag have two topic:
 image topic:/camera/image_color 
