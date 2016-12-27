@@ -9,7 +9,7 @@ I use the QR code board as the marker,detect the center point pair of the QR cod
 
 Image shows the image and laser fuse result:
 
-![figure 1](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/1752463585.png "camera laser calibration result")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/1.png "camera laser calibration result")
 
 #prerequisites
 
@@ -22,7 +22,7 @@ We use [ros](http://wiki.ros.org/indigo/Installation/Ubuntu) to get the image an
 Here we use the QR code as the marker.The size of the marker is 80*80 cm.
 
 
-![figure 2](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/247141145.png "Marker")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png "Marker")
 
 
 #Test data
@@ -103,13 +103,13 @@ $rosrun rqt_reconfigure rqt_reconfigure
 
 ```
 
-![figure 3](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/1897530596.png "rqt_reconfigure")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/3.png "rqt_reconfigure")
 
-![figure 4](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/29721810.png "Before cut the point cloud")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/4.png "Before cut the point cloud")
 
-![figure 5](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/602008276.png "After cut the point cloud")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png "After cut the point cloud")
 
-![figure 6](file:///tmp/WizNote/c8021e5b-02a5-4ce2-b80d-657b9e22edb1/index_files/952403967.png " Estimated plane")
+![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png " Estimated plane")
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 
