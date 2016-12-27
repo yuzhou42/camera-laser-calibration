@@ -1,6 +1,0 @@
-<!-- -->
-<launch>
-  <include file="$(find pointgrey_camera_driver)/launch/camera.launch"></include>
-  <include file="$(find velodyne_pointcloud)/launch/32e_nico.launch"></include> 
-</launch>
-
