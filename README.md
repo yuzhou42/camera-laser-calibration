@@ -72,12 +72,10 @@ Before cut the point cloud
 
 After cut the point cloud
 
-![After cut the point cloud](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png)
-
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png" width="150%" height="150%">
 Estimated plane
 
-![Estimated plane](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png )
-
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png" width="180%" height="180%">
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 ```
