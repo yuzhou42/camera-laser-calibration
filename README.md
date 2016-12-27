@@ -68,14 +68,15 @@ rqt_reconfigure
 
 Before cut the point cloud
 
-![Before cut the point cloud](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/4.png)
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/4.png" width="50%" height="50%">
 
 After cut the point cloud
 
-<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png" width="150%" height="150%">
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png" width="50%" height="50%">
+
 Estimated plane
 
-<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png" width="180%" height="180%">
+<img src="https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png" width="50%" height="50%">
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 ```
