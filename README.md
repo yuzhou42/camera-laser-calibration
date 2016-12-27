@@ -2,41 +2,23 @@
  Authors: Nico
 
 #overview
-
 This package is used to calculate the translation and rotation matrix between camera and laser coordinate.
-
 I use the QR code board as the marker,detect the center point pair of the QR code as 2D point in image and 3D points in laser coordinates. Then use the PnP method to get the relation between the two coordinates.Actualy you can use any other marker .It will also give you good result.
-
 Image shows the image and laser fuse result:
-
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/1.png)
-
 #prerequisites
-
 ##1 ROS
-
 We use [ros](http://wiki.ros.org/indigo/Installation/Ubuntu) to get the image and laser message.
-
 ##2 Marker
-
 Here we use the QR code as the marker.The size of the marker is 80*80 cm.
-
-![Marker](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png)
-
+![Marker](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png “Marker”)
 #Test data
-
 This rosbag have two topic:
-
 image topic:/camera/image_color 
-
 laser topic: /velodyne32/velodyne_points
-
 Run the bag file:
-
 ```
-
 $rosbag play 2016-12-22-14-03-09.bag -l
-
 ```
 
 And follow the "How to use"step, you can test the package.
