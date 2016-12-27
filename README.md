@@ -9,7 +9,11 @@ I use the QR code board as the marker,detect the center point pair of the QR cod
 
 Image shows the image and laser fuse result:
 
+<<<<<<< HEAD
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/1.png "camera laser calibration result")
+=======
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/1.png "camera laser calibration result")
+>>>>>>> 251ae8536ab78d449f9cb9ceff0b47c8761fb6f4
 
 #prerequisites
 
@@ -22,7 +26,12 @@ We use [ros](http://wiki.ros.org/indigo/Installation/Ubuntu) to get the image an
 Here we use the QR code as the marker.The size of the marker is 80*80 cm.
 
 
+<<<<<<< HEAD
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/2.png "Marker")
+=======
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/2.png  "Marker")
+Marker
+>>>>>>> 251ae8536ab78d449f9cb9ceff0b47c8761fb6f4
 
 
 #Test data
@@ -103,6 +112,7 @@ $rosrun rqt_reconfigure rqt_reconfigure
 
 ```
 
+<<<<<<< HEAD
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/3.png "rqt_reconfigure")
 
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/4.png "Before cut the point cloud")
@@ -110,6 +120,19 @@ $rosrun rqt_reconfigure rqt_reconfigure
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/5.png "After cut the point cloud")
 
 ![](https://github.com/NicoChou/camera-laser-calibration/raw/master/screenshots/6.png " Estimated plane")
+=======
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/3.png "rqt_reconfigure")
+rqt_reconfigure
+
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/4.png "Before cut the point cloud")
+Before cut the point cloud
+
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/5.png "After cut the point cloud")
+After cut the point cloud
+
+![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/6.png " Estimated plane")
+Estimated plane
+>>>>>>> 251ae8536ab78d449f9cb9ceff0b47c8761fb6f4
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 
