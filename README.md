@@ -23,6 +23,7 @@ Here we use the QR code as the marker.The size of the marker is 80*80 cm.
 
 
 ![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/2.png  "Marker")
+Marker
 
 
 #Test data
@@ -104,12 +105,16 @@ $rosrun rqt_reconfigure rqt_reconfigure
 ```
 
 ![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/3.png "rqt_reconfigure")
+rqt_reconfigure
 
 ![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/4.png "Before cut the point cloud")
+Before cut the point cloud
 
 ![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/5.png "After cut the point cloud")
+After cut the point cloud
 
 ![](https://github.com/NicoChou/camera-laser-calibration/blob/master/screenshots/6.png " Estimated plane")
+Estimated plane
 
 After adjust the parameter,wirite it in the  cam_laser_calib/src/camLaserCalib/cfg/cam_laser_calib.cfg file and shutdown the program. Recompile the package.
 
